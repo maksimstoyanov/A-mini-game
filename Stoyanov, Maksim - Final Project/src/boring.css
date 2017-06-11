@@ -1,0 +1,165 @@
+/*
+Programmer: Stoyanov, Maksim
+Chemeketa Community College
+May 17, 2017
+Class: CIS233J
+Assignment:
+File Name:
+*/
+/* 
+    Created on : May 17, 2017, 10:57:29 PM
+    Author     : <a href= "mailto:mstoyano@my.chemeketa.edu" >Maksim</a>
+*/
+
+.root
+{
+    -fx-background-image:url('boring.jpg');
+    -fx-background-size: cover;
+}
+
+
+.button1
+{
+    -fx-background-color: 
+        linear-gradient(#cccccc, #9b9b9b),
+        linear-gradient(#cccccc, #9b9b9b),
+        linear-gradient(#9b9b9b, #cccccc),
+        linear-gradient(#cccccc 0%, #9b9b9b 50%, #9b9b9b 50%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-padding: 100 20 10 20;
+    -fx-translate-y: 35;
+}
+
+.button1:pressed 
+{
+    -fx-background-color: 
+        linear-gradient(#cccccc, #9b9b9b),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-padding: 100 20 10 20;
+}
+
+.button2
+{
+    -fx-background-color: 
+        linear-gradient(#cccccc, #9b9b9b),
+        linear-gradient(#cccccc, #9b9b9b),
+        linear-gradient(#9b9b9b, #cccccc),
+        linear-gradient(#cccccc 0%, #9b9b9b 50%, #9b9b9b 50%),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5 18 4 18;
+}
+
+.button2:pressed
+{
+    -fx-background-color: 
+        linear-gradient(#cccccc, #9b9b9b),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 14px;
+    -fx-padding: 5 18 4 18;
+}
+
+.translation /* This Translation css effect helps change the position of the die */
+{
+    -fx-translate-x: 20;
+    -fx-translate-y: 350;
+}
+
+.separator *.line 
+{ 
+    -fx-border-style: solid;
+    -fx-border-color: #ffffff;
+    -fx-border-width: 2px;
+}
+
+.label1
+{
+    -fx-font-weight: bold;
+    -fx-font-size: 18px;
+    -fx-text-fill: black;
+    -fx-font-shadow: 5px;
+    -fx-effect: dropshadow( one-pass-box , rgba(0,0,0,90) , .10, 0.5 , 1 , 2 );
+}
+
+.label2
+{
+    -fx-text-fill: #000000;
+}
+
+
+.button3
+{
+    -fx-background-color: 
+        linear-gradient(#287229, #187019),
+        linear-gradient(#918f8f, #287229),
+        linear-gradient(#9b9b9b, #287229),
+        linear-gradient(#a8ff72 0%, #287229 85%, #287229 50%),
+        linear-gradient(from 0% 0% to 15% 25%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #879187;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-padding: 100 20 10 20;
+    -fx-translate-y: 450;
+    
+}
+
+.button3:pressed 
+{
+    -fx-background-color: 
+        linear-gradient(#cccccc, #9b9b9b),
+        linear-gradient(from 0% 0% to 15% 50%, rgba(255,255,255,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 30;
+    -fx-background-insets: 0,1,2,3,0;
+    -fx-text-fill: #654b00;
+    -fx-font-weight: bold;
+    -fx-font-size: 28px;
+    -fx-padding: 100 20 10 20;
+}
+
+/********************making the textFiled transparent**************************/
+.text-area 
+{
+    -fx-background-color: rgba(120,120,120,0.4);
+}
+
+.text-area .scroll-pane 
+{
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport
+{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content
+{
+    -fx-background-color: transparent;
+}
+
+.text-area 
+{
+    -fx-text-fill: #000000;
+}
+/* End of Text Area Mods */
